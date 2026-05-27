@@ -211,13 +211,14 @@ fun MarkdownViewer(
                                 .fillMaxWidth()
                                 .padding(vertical = 4.dp)
                                 .background(AccentTeal.copy(alpha = 0.08f), RoundedCornerShape(4.dp))
-                                .padding(12.dp)
+                                .padding(12.dp),
+                            verticalAlignment = Alignment.CenterVertically
                         ) {
-                            Spacer(
+                            Box(
                                 modifier = Modifier
                                     .width(4.dp)
-                                    .fillMaxHeight()
-                                    .background(AccentTeal)
+                                    .height(20.dp)
+                                    .background(AccentTeal, RoundedCornerShape(2.dp))
                             )
                             Spacer(modifier = Modifier.width(8.dp))
                             Text(
