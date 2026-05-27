@@ -1,0 +1,6 @@
+{
+  "name": "ATS CV Builder",
+  "description": "CV'nizi ATS standartlarına uygun Türkçe ve İngilizce formata dönüştürün ve iş ilanlarına göre analiz edip puanlayın.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
